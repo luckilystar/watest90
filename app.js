@@ -23,7 +23,7 @@ const port = process.env.PORT || 5000;
 app.get('/', (req, res) => {
     var data = {
         status: "success",
-        message: "Hello to whatsapp direct message api. Developed by Amirul Zharfan Zalid - Github@amizz"
+        message: "Hello to whatsapp direct message api."
     }
     res.status(200).json(data);
 })
